@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head tag -->
+<head>
+   <!--Meta Data-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title -->
+  <title>IMDb Clone</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- links -->
+  <script src="https://kit.fontawesome.com/00edcaf5a2.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet" />
+</head>
+<!-- body -->
+
+<body>
+  <!-- header image -->
+  <div class="header-img">
+    <img src="assets/imdb-clone-img.jpg" alt="" />
+  </div>
+  <!-- navigation bar -->
+  <div class="navbar">
+    <div class="top-container">
+      <p>Enjoy exploring the world of movies!</p>
+    </div>
+    <div class="search-container">
+      <div class="search-box">
+        <input type="search" placeholder="Search Anything" name="" id="search-bar" />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <!-- favourites button -->
+      <div class="fav-page-link">
+        <span><a href="favorite.html" title="Favourites">
+            <i class="fa-solid fa-heart fa-beat fa-2xl" style="color: #ff051e"  style="cursor:pointer;"></i> </a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- main container -->
+  <div class="main-container">
+    <div class="fav-container"></div>
+  </div>
+   <!-- javascript -->
+  <script src="script.js"></script>
+</body>
+
+</html>

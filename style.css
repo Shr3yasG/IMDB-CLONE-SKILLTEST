@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+}
+
+.header-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-container p {
+    color: yellow;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 50px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 46%;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 25px;
+    outline: 2px solid yellow;
+}
+
+#search-bar {
+    margin: 0;
+    width: 90%;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 25px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.search-box button {
+    margin: 0;
+    width: 9%;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.fav-page-link {
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+}
+
+/* main-container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0d1117;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+
+/* Favourite page */
+
+
+
+.exit-btn {
+    position: absolute;
+    right: 2%;
+    top: 62%;
+}
+
+.fav-content p {
+    font-family: 'Roboto', sans-serif;
+    color: yellow;
+    font-size: 50px;
+}
+
+.fav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 53%;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.fav-item {
+    box-shadow: 1px 2px #a1a1a1;
+    margin: 0px 5px 25px 5px;
+    width: 28%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.fav-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fav-poster img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.fav-details-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 5px 5px 0px;
+}
+
+.fav-movie-name {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 0rem;
+}
+
+.fav-movie-rating {
+    color: #888;
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 0rem;
+}
+
+.removeall-btn button{
+    background-color: yellow;
+    color: black;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+
+/* movie page  */
+
+.movie-container {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 1px 2px #a1a1a1;
+}
+
+.movie-poster {
+    width: 50%;
+}
+
+.movie-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie-details {
+    width: 100%;
+    padding: 0px 10px 0px 20px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.details-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dh-ls {
+    width: 87%;
+}
+
+.dh-rs {
+    text-align: right;
+    width: 10%;
+    padding: 5px 0px 0px 0px;
+}
+
+.details-header h1 {
+    padding-bottom: 0px;
+}
+
+.italics-text {
+    font-size: 15px;
+    color: #555;
+}
+
+.details-ul {
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 15px;
+    margin-top: 10px;
+}

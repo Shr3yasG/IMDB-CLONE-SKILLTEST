@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+
+<head>
+    <!-- meta data -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title -->
+    <title>Favourites</title>
+
+    <!-- all links -->
+
+    <script src="https://kit.fontawesome.com/00edcaf5a2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<!-- body -->
+
+<body onload="favoritesMovieLoader()">
+    <!-- header image -->
+    <div class="header-img">
+        <img src="assets/imdb-clone-img.jpg" alt="" />
+    </div>
+
+    <!-- navigation bar -->
+    <div class="navbar">
+        <div class="fav-content">
+            <p>Favourites</p>
+        </div>
+
+        <div class="removeall-btn">
+            <button onclick="removeAllFavorites()">Remove All</button>
+        </div>
+    </div>
+
+
+
+    <!-- exit button -->
+    <div class="exit-btn">
+        <span><a href="index.html" title="Back">
+                <i class="fa-solid fa-right-from-bracket fa-2xl" style="color: yellow;"></i></a></span>
+    </div>
+
+    <!--Main Content Container-->
+    <div class="main">
+        <div class="fav-container">
+            <!-- Items will be displayed here -->
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
